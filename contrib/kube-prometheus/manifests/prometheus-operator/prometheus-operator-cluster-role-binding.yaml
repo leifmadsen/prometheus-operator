@@ -10,3 +10,6 @@ subjects:
 - kind: ServiceAccount
   name: prometheus-operator
   namespace: monitoring
+- kind: User
+  name: system:serviceaccount:default:prometheus-operator
+  namespace: monitoring
